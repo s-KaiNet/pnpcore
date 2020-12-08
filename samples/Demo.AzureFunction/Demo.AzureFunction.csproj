@@ -12,8 +12,8 @@
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\sdk\PnP.Core.Auth\PnP.Core.Auth.csproj" />
-    <ProjectReference Include="..\..\sdk\PnP.Core\PnP.Core.csproj" />
+    <ProjectReference Include="..\..\src\sdk\PnP.Core.Auth\PnP.Core.Auth.csproj" />
+    <ProjectReference Include="..\..\src\sdk\PnP.Core\PnP.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
